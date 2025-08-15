@@ -1,0 +1,9 @@
+# Instructions for all web crawlers (user agents)
+User-agent: *
+
+# Disallow crawling of admin and test directories
+Disallow: /admin/
+Disallow: /test/
+
+# Location of the XML sitemap
+Sitemap: https://cozy-corner-cafe.vercel.app/sitemap.xml
