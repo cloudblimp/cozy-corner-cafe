@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cozy Corner Cafe | Contact</title>
+    <link rel="stylesheet" href="/Lab/style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div id="navbar">
+        <a id="logo" href="index.html">The Cozy Corner Cafe</a>
+        <div id="nav-links">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <!-- Page Header -->
+    <div id="page-header">
+        <h1>Get In Touch</h1>
+        <p>We'd love to hear from you!</p>
+    </div>
+
+    <!-- Main Contact Content -->
+    <div id="main-content" class="container">
+        <div class="contact-grid">
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form action="#" method="POST">
+                    <div>
+                        <label for="name">Your Name</label><br>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">Your Email</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="message">Message</label><br>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <br>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Contact Info & Map -->
+            <div class="contact-info">
+                <h2>Visit Us</h2>
+                <div>
+                    <p><strong>Address:</strong> 123 Brew Street, Pune, India</p>
+                    <p><strong>Phone:</strong> +91 98765 43210</p>
+                    <p><strong>Email:</strong> hello@cozycorner.com</p>
+                    <h3>Opening Hours</h3>
+                    <p>Monday - Saturday: 8:00 AM - 8:00 PM</p>
+                    <p>Sunday: 9:00 AM - 6:00 PM</p>
+                </div>
+                
+                <!-- Embedded Map -->
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121059.0436324991!2d73.79292694541015!3d18.52460354424915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1663242130125!5m2!1sen!2sin" 
+                        width="100%" 
+                        height="300" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer">
+        <p>&copy; 2025 The Cozy Corner Cafe. All Rights Reserved.</p>
+        <p>123 Brew Street, Pune, India</p>
+    </div>
+
+</body>
+</html>
