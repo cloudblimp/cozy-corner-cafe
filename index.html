@@ -6,51 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Cozy Corner Cafe | Home</title>
     <link rel="stylesheet" href="./style.css">
-    <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "CafeOrCoffeeShop",
-          "name": "The Cozy Corner Cafe",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "123 Brew Street",
-            "addressLocality": "Pune",
-            "addressCountry": "IN"
-          },
-          "telephone": "+91 98765 43210",
-          "url": "https://cozy-corner-cafe.vercel.app/",
-          "description": "Your perfect coffee escape in the heart of the city. We believe in the simple joy of a perfectly brewed coffee, the comfort of a fresh pastry, and the warmth of a friendly smile.",
-          "priceRange": "₹₹",
-          "openingHoursSpecification": [
-            {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": [
-                "Monday",
-                "Tuesday",
-    -           "Wednesday",
-                "Thursday",
-                "Friday",
-                "Saturday"
-              ],
-              "opens": "08:00",
-              "closes": "20:00"
-            },
-            {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": "Sunday",
-              "opens": "09:00",
-              "closes": "18:00"
-            }
-          ],
-          "servesCuisine": "Coffee, Pastries, Snacks"
-        }
-        </script>
 
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CafeOrCoffeeShop",
+      "name": "The Cozy Corner Cafe",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Brew Street",
+        "addressLocality": "Pune",
+        "addressCountry": "IN"
+      },
+      "telephone": "+91 98765 43210",
+      "url": "https://cozy-corner-cafe.vercel.app/",
+      "description": "Your perfect coffee escape in the heart of the city. We believe in the simple joy of a perfectly brewed coffee, the comfort of a fresh pastry, and the warmth of a friendly smile.",
+      "priceRange": "₹₹",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "08:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "09:00",
+          "closes": "18:00"
+        }
+      ],
+      "servesCuisine": "Coffee, Pastries, Snacks"
+    }
+    </script>
 </head>
 
 <body>
 
-    <!-- Navigation Bar -->
     <div id="navbar">
         <a id="logo" href="index.html">The Cozy Corner Cafe</a>
         <div id="nav-links">
@@ -59,19 +58,13 @@
             <a href="contact.html">Contact</a>
         </div>
     </div>
-    <!-- Hero Section -->
-    <div>
-
+    <div id="page-header">
         <h1>Your Perfect Coffee Escape</h1>
         <p>Where every cup is a warm hug.</p>
     </div>
 
-    <hr>
+    <div class="container">
 
-    <!-- Main Content -->
-    <div>
-
-        <!-- About Us Section -->
         <div>
             <h1>Welcome to Our Corner</h1>
             <p>
@@ -81,45 +74,52 @@
             </p>
         </div>
 
-        <!-- Specialties Section -->
-        <div>
+        <hr>
+
+        <div class="specialties-section">
             <h1>Our Specialties</h1>
+            <div class="specialties-container">
 
-            <!-- Specialty 1 -->
-            <div>
+                <div class="specialty-item">
+                    <img src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="A cup of artisanal espresso with latte art">
+                    <h3>Artisanal Espresso</h3>
+                    <p>Rich, aromatic, and pulled to perfection by our expert baristas.</p>
+                </div>
 
-                <h3>Artisanal Espresso</h3>
-                <p>Rich, aromatic, and pulled to perfection by our expert baristas.</p>
-            </div>
+                <div class="specialty-item">
+                     <img src="https://images.pexels.com/photos/2679501/pexels-photo-2679501.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Flaky and buttery freshly baked croissants">
+                    <h3>Freshly Baked Croissants</h3>
+                    <p>Flaky, buttery, and the perfect companion to your morning coffee.</p>
+                </div>
 
-            <!-- Specialty 2 -->
-            <div>
-
-                <h3>Freshly Baked Croissants</h3>
-                <p>Flaky, buttery, and the perfect companion to your morning coffee.</p>
-            </div>
-
-            <!-- Specialty 3 -->
-            <div>
-
-                <h3>Signature Lattes</h3>
-                <p>Creative and delicious, from classic vanilla to seasonal specials.</p>
+                <div class="specialty-item">
+                    <img src="https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="A signature latte with intricate foam art">
+                    <h3>Signature Lattes</h3>
+                    <p>Creative and delicious, from classic vanilla to seasonal specials.</p>
+                </div>
             </div>
         </div>
 
-        <!-- Call to Action -->
-        <div>
+        <hr>
+
+        <div class="video-section">
+            <h2>Watch Us Brew</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/AGDGZfsQ2fk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        
+        <hr>
+
+        <div style="text-align: center;">
             <h2>Come Say Hello!</h2>
             <p>We've got a seat and a fresh cup of coffee waiting for you.</p>
-            <a href="contact.html">Find Us</a>
+            <a href="contact.html" class="cta-button">Find Us</a>
         </div>
 
     </div>
 
-    <hr>
-
-    <!-- Footer -->
-    <div>
+    <div id="footer">
         <p>&copy; 2025 The Cozy Corner Cafe. All Rights Reserved.</p>
         <p>123 Brew Street, Pune, India</p>
     </div>
